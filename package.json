@@ -1,0 +1,19 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Users and Users Information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaaibhaviSingh/Users.git"
+  },
+  "author": "Vaaibhavi Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaaibhaviSingh/Users/issues"
+  },
+  "homepage": "https://github.com/VaaibhaviSingh/Users#readme"
+}
