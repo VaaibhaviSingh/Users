@@ -57,7 +57,7 @@ In the space below write down the user's information in the form: <br />
 	"email": "user@mail" <br />
 } <br />
 
-<img src="https://s8.postimg.cc/ddkbncy45/Body.png" alt="postman">
+<img src="https://s8.postimg.cc/u7ypjztid/Body.png" alt="postman">
 
 Click on SEND. <br />
 The firebase database will be updated and mail will be sent to "user@mail".  
@@ -75,7 +75,7 @@ Same can be done by visiting: <br />
 https://users-41f8e.firebaseapp.com/userInformation <br />
 The above link will always work even if the server is not running locally. <br />
 
-<img src="https://s8.postimg.cc/604xo3gjp/Browser.png" alt="postman">
+<img src="https://s8.postimg.cc/twh97g2ud/Browser.png" alt="postman">
 
 ### Demo
 <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/655234/tumblr_mj3mo3MGAf1r0dbsno1_500.0.gif" alt="pica-pica">
