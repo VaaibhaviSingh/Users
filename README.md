@@ -80,9 +80,7 @@ The above link will always work even if the server is not running locally. <br /
 <img src="https://s8.postimg.cc/twh97g2ud/Browser.png" alt="postman">
 
 ### Demo
-<img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/655234/tumblr_mj3mo3MGAf1r0dbsno1_500.0.gif" alt="pica-pica">
-
-[![Demo](https://s8.postimg.cc/gxk1i8s2t/Demo.png)](https://youtu.be/d-jRMoINkYM "Demo")
+<img src="https://youtu.be/d-jRMoINkYM" alt="Demo">
 
 #### Features
 * Only POST requests can be send to /users
