@@ -39,6 +39,9 @@ app.post('/users', (request, response) => {
     subject: 'Welcome Mail',
     text: 'Dear ' + request.body.username  +', Welcome to our app'
   });
+  
+  response.statusCode = 200;
+  response.end("Mail Sent to " + request.body.email);
 
 });
 app.get('/userInformation', (request, response) => {
