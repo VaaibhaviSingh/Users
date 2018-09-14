@@ -80,7 +80,7 @@ The above link will always work even if the server is not running locally. <br /
 <img src="https://s8.postimg.cc/twh97g2ud/Browser.png" alt="postman">
 
 ### Demo
-<img src="demo.gif" alt="Demo">
+<img src="Demo.gif" alt="Demo">
 
 #### Features
 * Only POST requests can be send to /users
