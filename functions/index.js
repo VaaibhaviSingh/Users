@@ -13,8 +13,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'kadduzomato@gmail.com',
-        pass: 'zomatozomato'
+        user: 'yourmail@gmail.com',
+        pass: 'yourpassword'
     }
 });
 
@@ -34,7 +34,7 @@ app.post('/users', (request, response) => {
   });
 
   transporter.sendMail({
-    from: 'kadduzomato@gmail.com',
+    from: 'yourmail@gmail.com',
     to: request.body.email,
     subject: 'Welcome Mail',
     text: 'Dear ' + request.body.username  +', Welcome to our app'
