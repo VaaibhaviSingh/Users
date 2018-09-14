@@ -6,7 +6,7 @@
 
 #### Download POSTMAN
 Download the version of [POSTMAN](https://www.getpostman.com/apps) which suits your OS.
-<img src="https://www.dropbox.com/s/h3sadd5zoozmqb6/postman.png?dl=0" alt="postman">
+<img src="https://s22.postimg.cc/hiwuayl0x/postman.png" alt="postman">
 
 
 #### Send POST request  
