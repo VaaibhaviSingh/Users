@@ -5,7 +5,7 @@
 ### How to run and use the server?
 
 #### Download POSTMAN
-Download the version of [POSTMAN](https://www.getpostman.com/apps) which suits your OS.__
+Download the version of [POSTMAN](https://www.getpostman.com/apps) which suits your OS. <br />
 <img src="https://s22.postimg.cc/hiwuayl0x/postman.png" alt="postman">
 
 
