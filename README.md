@@ -2,50 +2,30 @@
 
 > A backend server for an app that takes user's information, stores them and sends them a welcome mail.
 
-## Running
+## How to run and use the server?
 
-### Clone the repo and install dependencies
+### Download POSTMAN
+Download the version of [POSTMAN](https://www.getpostman.com/apps) which suits your OS.
 
-```sh
-$ git clone https://github.com/anshumanv/toshokan
-$ cd toshokan
-$ pip3 install -r requirements.txt
-```
 
-### Setup database
+### Send POST request  
+https://users-41f8e.firebaseapp.com/users
 
-##### Setup database schema
 ```sh
 $ sqlite3 toshokan.db < toshokan-schema.sql
 ```
 
-##### Feed initial data
-```sh
-$ sqlite3 toshokan.db < initial-data.sql
-```
-
-### Start the server
-```sh
-$ python3 run_app.py
-```
-Visit - https://users-41f8e.firebaseapp.com/
+### Send GET request
+https://users-41f8e.firebaseapp.com/userInformation
 
 
-### Usage
-Click and hover mouse around the screen :grinning:.
-
-### Demo
+## Demo
 <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/655234/tumblr_mj3mo3MGAf1r0dbsno1_500.0.gif" alt="pica-pica">
 
 ### Features
-* Colours changing with time.
-* Oscillating draw width.
-* Save your pattern by simply right clicking over the canvas.
+* Only POST requests can be send to /users
+* Only GET request can be send to /userInformation
+* Welcome mail is sent to the user on sending the POST request
 
-### Todo
-* Add other overlap effects.
-* Add a color palette (random colours could be annoying for some users).
-* Add other brush effects in a button group.
-
-### License
+## License
 MIT © [Vaaibhavi Singh](https://github.com/VaaibhaviSingh)
