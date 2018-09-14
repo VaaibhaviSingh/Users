@@ -42,7 +42,7 @@ $ firebase serve --only functions,hosting
 
 Your server is up and running.
 
-### Send POST request  
+### Send POST request to .../users  
 
 Open postman desktop app, select POST from dropdown list and place the following url in the url section: <br />
 http://localhost:5001/users-41f8e/us-central1/app/users <br />
@@ -60,9 +60,11 @@ In the space below write down the user's information in the form: <br />
 <img src="https://s8.postimg.cc/u7ypjztid/Body.png" alt="postman">
 
 Click on SEND. <br />
-The firebase database will be updated and mail will be sent to "user@mail".  
+The firebase database will be updated and mail will be sent to "user@mail". <br />
 
-### Send GET request
+<img src="https://s8.postimg.cc/924wpg8f9/Mail.png" alt="postman">
+
+### Send GET request to .../userInformation
 
 Open postman desktop app, select GET from dropdown list and place the following url in the url section: <br />
 http://localhost:5001/users-41f8e/us-central1/app/userInformation <br />
