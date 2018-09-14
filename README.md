@@ -3,20 +3,20 @@
 > A backend server for an app that takes user's information, stores them and sends them a welcome mail.
 
 ### Download POSTMAN
-Download the version of [POSTMAN](https://www.getpostman.com/apps) which suits your OS. 
+Download [POSTMAN](https://www.getpostman.com/apps) version according to your OS. 
 
 <img src="https://s22.postimg.cc/hiwuayl0x/postman.png" alt="postman">
 
 ### Setting up server
 
 #### Clone Git repository 
-Clone the git repository in your locl device by using git bash.
+Clone the git repository in your local device by typing the following command git bash:
 
 ```sh
 $ git clone https://github.com/VaaibhaviSingh/Users.git
 ```
 
-Open command prompt and move to the project's folder, after that move to functions folder.
+Open command prompt and move to the current location of the project(move to Users folder), after that move to functions folder.
 
 ```sh
 $ cd functions
@@ -34,7 +34,7 @@ Move back to the root folder.
 $ cd ..
 ```
 
-Run the server
+Run the server using the following command:
 
 ```sh
 $ firebase serve --only functions,hosting
@@ -44,27 +44,38 @@ Your server is up and running.
 
 ### Send POST request  
 
-Open postman desktop app, select POST from dropdown list and place the following url in the url section:
-http://localhost:5001/users-41f8e/us-central1/app/users
-Go to body header select raw option from it then from the dropdown list on the right select JSON(application/json).
-In the space below write down the user's information in the form:
-{
-	"username": "username",
-	"email": "user@mail"
-}
-Click on SEND. 
+Open postman desktop app, select POST from dropdown list and place the following url in the url section: <br />
+http://localhost:5001/users-41f8e/us-central1/app/users <br />
+Go to header in the key box write "Content-Type" and in the value box write "application/json".
 
+<img src="https://s8.postimg.cc/4ijhcqefp/Header.png" alt="postman">
+
+Go to body select raw option from it then from the dropdown list on the right select JSON(application/json). <br />
+In the space below write down the user's information in the form: <br />
+{ <br />
+	"username": "username", <br />
+	"email": "user@mail" <br />
+} <br />
+
+<img src="https://s8.postimg.cc/ddkbncy45/Body.png" alt="postman">
+
+Click on SEND. <br />
 The firebase database will be updated and mail will be sent to "user@mail".  
 
 ### Send GET request
 
-Open postman desktop app, select GET from dropdown list and place the following url in the url section:
-http://localhost:5001/users-41f8e/us-central1/app/userInformation
+Open postman desktop app, select GET from dropdown list and place the following url in the url section: <br />
+http://localhost:5001/users-41f8e/us-central1/app/userInformation <br />
+Click on SEND. <br />
+Database content will be shown in the response body. <br />
 
-Database content will be shown in the response body.
-Same can be done by visiting:
-https://users-41f8e.firebaseapp.com/userInformation
+<img src="https://s8.postimg.cc/d22val28l/GET.png" alt="postman">
 
+Same can be done by visiting: <br />
+https://users-41f8e.firebaseapp.com/userInformation <br />
+The above link will always work even if the server is not running locally. <br />
+
+<img src="https://s8.postimg.cc/604xo3gjp/Browser.png" alt="postman">
 
 ### Demo
 <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/655234/tumblr_mj3mo3MGAf1r0dbsno1_500.0.gif" alt="pica-pica">
